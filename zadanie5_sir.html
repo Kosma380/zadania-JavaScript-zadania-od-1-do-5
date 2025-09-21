@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Zadanie 5 - Sirocki </title>
+  <script type="text/javascript">
+    function okno_zamknij_siro() { window.close(); }
+
+    // Funkcje otwierające cztery grafiki (nazwy z Twoim nazwiskiem)
+    function WinOpen_siro_1() {
+      window.open("grafika1.html","okno1_siro","toolbar=no,directories=no,menubar=no,height=400,width=400,top=200,left=50");
+    }
+    function WinOpen_siro_2() {
+      window.open("grafika2.html","okno2_siro","toolbar=no,directories=no,menubar=no,height=400,width=400,top=200,left=270");
+    }
+    function WinOpen_siro_3() {
+      window.open("grafika3.html","okno3_siro","toolbar=no,directories=no,menubar=no,height=400,width=400,top=200,left=490");
+    }
+    function WinOpen_siro_4() {
+      window.open("grafika4.html","okno4_siro","toolbar=no,directories=no,menubar=no,height=400,width=400,top=200,left=710");
+    }
+  </script>
+</head>
+<body>
+  <h2 style="text-align:center; color:red;">wykonał: Kosma Sirocki mój numer w dzienniku 24, czyli mam układ 4</h2>
+  <p style="text-align:center;">(mam układ 4) </p>
+
+  <div style="text-align:center; margin-top:20px;">
+    <input type="button" value="Grafika 1" onclick="WinOpen_siro_1()">
+    <input type="button" value="Grafika 2" onclick="WinOpen_siro_2()">
+    <input type="button" value="Grafika 3" onclick="WinOpen_siro_3()">
+    <input type="button" value="Grafika 4" onclick="WinOpen_siro_4()">
+    <br><br>
+    <input type="button" value="Zamknij okno" onclick="okno_zamknij_siro()">
+  </div>
+</body>
+</html>
